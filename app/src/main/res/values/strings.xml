@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PokeApi Test</string>
+    <string name="pokemon_list_label">Pokemon List</string>
+    <string name="pokemon_details_label">Pokemon Details</string>
+    <string name="app_title">Pokédex</string>
+    <string name="weight">Weight:</string>
+    <string name="height">Height:</string>
+    <string name="non_hidden_abilities">Non-hidden abilities:</string>
+    <string name="general_error">An error occurred</string>
+    <string name="pokemon_details_load_error">Could not load Pokemon details</string>
+    <string name="pokemon_list_load_error">Could not load Pokemon list</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="height_meter">%1s m</string>
+    <string name="weight_kg">%1s kg</string>
+    <string name="button_ok">OK</string>
+    <string name="pokedex_id">%1s (%1d)</string>
+</resources>
