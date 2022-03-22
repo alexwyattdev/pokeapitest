@@ -41,6 +41,7 @@ abstract class EndlessRecyclerOnScrollListener() : RecyclerView.OnScrollListener
         return maxSize
     }
 
+    //load more items when reaching the last few items defined in visibleThreshold during scrolling
     override fun onScrolled(view: RecyclerView, dx: Int, dy: Int) {
         var lastVisibleItemPosition = 0
 

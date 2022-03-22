@@ -5,7 +5,7 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import javax.inject.Inject
 
-class NetworkCheck @Inject constructor(val appContext: Context) {
+class NetworkCheck @Inject constructor(private val appContext: Context) {
 
     fun hasConnection(): Boolean {
         val connectivityManager = appContext.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

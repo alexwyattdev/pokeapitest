@@ -47,7 +47,7 @@ class PokemonListViewModel @Inject constructor(private val pokemonRepository: Po
                 .subscribe({ response ->
                     offset = newOffSet
                     totalResults = response.totalResults
-                    pokemonListDataState.postValue(DataState.Success(Pair(response.pokemons, newPageLoad)))
+                    pokemonListDataState.postValue(DataState.Success(Pair(response.pokemonItems, newPageLoad)))
                 }, { t: Throwable? ->
 
                     Timber.e(t)

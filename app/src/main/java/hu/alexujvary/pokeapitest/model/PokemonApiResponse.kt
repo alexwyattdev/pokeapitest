@@ -6,5 +6,5 @@ data class PokemonApiResponse(
     @SerializedName("count")
     var totalResults: Int = 0,
     @SerializedName("results")
-    var pokemons: List<PokemonItem> = listOf()
+    var pokemonItems: List<PokemonItem> = listOf()
 )
